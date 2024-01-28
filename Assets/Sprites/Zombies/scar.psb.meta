@@ -32,7 +32,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 32
+    spritePixelsToUnits: 8
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -107,8 +107,8 @@ ScriptedImporter:
     spriteBone:
     - name: bone_1
       position: {x: 1.9799023, y: 12.961205, z: 0}
-      rotation: {x: 0, y: 0, z: -0.708383, w: 0.70582825}
-      length: 10.975989
+      rotation: {x: 0, y: 0, z: -0.708383, w: 0.7058283}
+      length: 10.975988
       parentId: -1
     spriteOutline: []
     vertices:
@@ -242,7 +242,7 @@ ScriptedImporter:
         boneIndex1: 0
         boneIndex2: 0
         boneIndex3: 0
-    - position: {x: 2, y: 0}
+    - position: {x: 1.0799997, y: 0.7}
       boneWeight:
         weight0: 1
         weight1: 0
@@ -292,8 +292,18 @@ ScriptedImporter:
         boneIndex1: 0
         boneIndex2: 0
         boneIndex3: 0
+    - position: {x: 2.8548648, y: 0.70276475}
+      boneWeight:
+        weight0: 1
+        weight1: 0
+        weight2: 0
+        weight3: 0
+        boneIndex0: 0
+        boneIndex1: 0
+        boneIndex2: 0
+        boneIndex3: 0
     spritePhysicsOutline: []
-    indices: 07000000050000000c0000000900000011000000010000000f000000000000000a00000009000000010000000f00000008000000000000000e00000006000000080000000e00000007000000060000001000000000000000080000000a0000000a00000008000000040000001100000009000000030000000a000000090000000f0000000a0000000b0000000900000003000000090000000b0000000a000000040000000b00000004000000080000000c000000070000000d000000050000000600000007000000080000000c00000008000000070000001100000002000000010000000d0000000700000010000000
+    indices: 07000000050000000c0000000900000011000000010000000f000000000000000a0000000f0000000900000001000000000000000e00000008000000080000000e00000006000000100000000700000006000000100000001200000007000000080000000600000007000000110000000200000001000000070000000c000000080000001100000009000000030000000a000000090000000f0000000a0000000b0000000900000003000000090000000b0000000a000000040000000b0000000c0000000400000008000000120000000d0000000700000005000000070000000d00000008000000040000000a00000000000000080000000a000000
     edges:
     - {x: 1, y: 15}
     - {x: 2, y: 1}
@@ -307,8 +317,9 @@ ScriptedImporter:
     - {x: 14, y: 6}
     - {x: 15, y: 0}
     - {x: 17, y: 2}
-    - {x: 13, y: 16}
     - {x: 5, y: 13}
+    - {x: 13, y: 18}
+    - {x: 16, y: 18}
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -18, y: -27}
@@ -327,9 +338,9 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: bone_3
-      position: {x: 1.9402657, y: 5.9606934, z: 0}
+      position: {x: 1.9402637, y: 5.960697, z: 0}
       rotation: {x: 0, y: 0, z: -0.7040801, w: 0.7101207}
-      length: 4.6584682
+      length: 4.6584687
       parentId: -1
     spriteOutline: []
     vertices:
@@ -363,7 +374,7 @@ ScriptedImporter:
         boneIndex1: 0
         boneIndex2: 0
         boneIndex3: 0
-    - position: {x: 1.7179699, y: 3.8701782}
+    - position: {x: 1.9476246, y: 4.0079713}
       boneWeight:
         weight0: 1
         weight1: 0
@@ -383,7 +394,7 @@ ScriptedImporter:
         boneIndex1: 0
         boneIndex2: 0
         boneIndex3: 0
-    - position: {x: 1.7816119, y: 6.037327}
+    - position: {x: 1.9653355, y: 6.037327}
       boneWeight:
         weight0: 1
         weight1: 0
@@ -403,7 +414,7 @@ ScriptedImporter:
         boneIndex1: 0
         boneIndex2: 0
         boneIndex3: 0
-    - position: {x: 2, y: 8}
+    - position: {x: 1.1043466, y: 7.2191744}
       boneWeight:
         weight0: 1
         weight1: 0
@@ -463,8 +474,18 @@ ScriptedImporter:
         boneIndex1: 0
         boneIndex2: 0
         boneIndex3: 0
+    - position: {x: 2.8517067, y: 7.2255707}
+      boneWeight:
+        weight0: 1
+        weight1: 0
+        weight2: 0
+        weight3: 0
+        boneIndex0: 0
+        boneIndex1: 0
+        boneIndex2: 0
+        boneIndex3: 0
     spritePhysicsOutline: []
-    indices: 0600000001000000000000000600000000000000030000000500000003000000040000000000000004000000030000000300000005000000090000000700000005000000040000000100000006000000080000000a00000002000000060000000800000006000000020000000b0000000a0000000600000009000000050000000c000000090000000b0000000300000005000000070000000c0000000b0000000600000003000000
+    indices: 06000000010000000000000006000000000000000300000005000000040000000700000004000000050000000300000003000000050000000c0000000300000000000000040000000d00000005000000070000000100000006000000080000000a00000002000000060000000800000006000000020000000b0000000a0000000600000009000000030000000c000000090000000b00000003000000050000000d0000000c0000000b0000000600000003000000
     edges:
     - {x: 0, y: 4}
     - {x: 1, y: 0}
@@ -474,8 +495,9 @@ ScriptedImporter:
     - {x: 10, y: 2}
     - {x: 11, y: 10}
     - {x: 12, y: 9}
-    - {x: 12, y: 7}
     - {x: 7, y: 4}
+    - {x: 12, y: 13}
+    - {x: 7, y: 13}
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -18, y: 25}
@@ -494,9 +516,9 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: bone_2
-      position: {x: 1.9402485, y: 8.985287, z: 0}
-      rotation: {x: 0, y: 0, z: -0.70710975, w: 0.70710385}
-      length: 7.0245914
+      position: {x: 1.9402485, y: 8.985291, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071039, w: 0.70710975}
+      length: 7.0245905
       parentId: -1
     spriteOutline: []
     vertices:
@@ -600,7 +622,7 @@ ScriptedImporter:
         boneIndex1: 0
         boneIndex2: 0
         boneIndex3: 0
-    - position: {x: 2, y: 11}
+    - position: {x: 2.8999994, y: 10.279999}
       boneWeight:
         weight0: 1
         weight1: 0
@@ -610,7 +632,27 @@ ScriptedImporter:
         boneIndex1: 0
         boneIndex2: 0
         boneIndex3: 0
-    - position: {x: 2, y: 0}
+    - position: {x: 2.9332855, y: 0.67079866}
+      boneWeight:
+        weight0: 1
+        weight1: 0
+        weight2: 0
+        weight3: 0
+        boneIndex0: 0
+        boneIndex1: 0
+        boneIndex2: 0
+        boneIndex3: 0
+    - position: {x: 1.13942, y: 10.269701}
+      boneWeight:
+        weight0: 1
+        weight1: 0
+        weight2: 0
+        weight3: 0
+        boneIndex0: 0
+        boneIndex1: 0
+        boneIndex2: 0
+        boneIndex3: 0
+    - position: {x: 1.0578963, y: 0.66413397}
       boneWeight:
         weight0: 1
         weight1: 0
@@ -621,16 +663,18 @@ ScriptedImporter:
         boneIndex2: 0
         boneIndex3: 0
     spritePhysicsOutline: []
-    indices: 0500000001000000090000000100000005000000020000000800000009000000070000000100000007000000090000000900000008000000060000000a00000008000000070000000b00000002000000040000000300000004000000050000000000000005000000090000000b0000000400000003000000000000000300000005000000080000000a00000006000000060000000000000009000000040000000200000005000000
+    indices: 05000000010000000900000001000000050000000200000008000000070000000c0000000600000009000000080000000700000008000000090000000900000001000000070000000a000000080000000c000000040000000d00000002000000030000000b000000040000000d000000040000000b000000050000000300000004000000050000000900000000000000090000000600000000000000080000000a00000006000000000000000300000005000000020000000500000004000000
     edges:
     - {x: 1, y: 7}
     - {x: 0, y: 3}
     - {x: 2, y: 1}
     - {x: 6, y: 0}
     - {x: 6, y: 10}
-    - {x: 10, y: 7}
-    - {x: 2, y: 11}
     - {x: 11, y: 3}
+    - {x: 10, y: 12}
+    - {x: 7, y: 12}
+    - {x: 2, y: 13}
+    - {x: 11, y: 13}
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -18, y: 2}
@@ -722,17 +766,17 @@ ScriptedImporter:
     bones:
     - name: bone_1
       position: {x: 23.979902, y: 43.961205, z: 0}
-      rotation: {x: 0, y: 0, z: -0.708383, w: 0.70582825}
-      length: 10.975989
+      rotation: {x: 0, y: 0, z: -0.708383, w: 0.7058283}
+      length: 10.975988
       parentId: -1
     - name: bone_2
-      position: {x: 10.975989, y: 0.0000025369013, z: 0}
-      rotation: {x: 0, y: 0, z: 0.0018023464, w: 0.9999984}
-      length: 7.0245914
+      position: {x: 10.975986, y: 0.0000016133898, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0018105955, w: 0.9999984}
+      length: 7.0245905
       parentId: 0
     - name: bone_3
-      position: {x: 7.024591, y: 0.00007614179, z: 0}
-      rotation: {x: 0, y: 0, z: 0.004275482, w: 0.9999909}
+      position: {x: 7.0245924, y: -0.000041994703, z: 0}
+      rotation: {x: 0, y: 0, z: 0.00426719, w: 0.99999094}
       length: 4.658469
       parentId: 1
     parts:
