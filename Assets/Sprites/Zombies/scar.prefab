@@ -1187,7 +1187,7 @@ GameObject:
   - component: {fileID: 3530127219151356459}
   - component: {fileID: 2868331301659052985}
   m_Layer: 0
-  m_Name: scar_variant_4
+  m_Name: scar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
